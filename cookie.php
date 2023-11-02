@@ -1,21 +1,15 @@
 <?php
-if(!isset($_COOKIE['visited'])) {
-    setcookie("visited", "yes");
-    $str = "cookie o nazwie visited nie jest ustawione. ";
-} else {
-    $str = "Cookie o nazwie visited jest ustawione. ";
-    $str .= "jego wartosc to: {$_COOKIE['visited']}.";
-}
-?>
-
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+			if (isset($_COOKIE["ciasteczko"])) {
+				echo "<b>Miło nam, że nas znowu odwiedziłeś</b>";
+			} else {
+				$cookie_name = "cookie";
+				$cookie_value = "";
+				$cookie_time = time() + 60*60*2;
+				$cookie_path = "";
+				$cookie_domain = "";
+				$cookie_secure  = false;
+				$cookie_httponly = false;
+				setcookie($cookie_name, $cookie_value, $cookie_time, $cookie_path, $cookie_domain, $cookie_secure, $cookie_httponly);
+				echo "<p style='font-style: italic;'>Sprawdź regulamin naszej strony!</p>";
+			}
+ ?>
