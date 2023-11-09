@@ -1,0 +1,14 @@
+Zadanie1
+ODP:A
+
+Zadanie2
+ODP:B
+
+Zadanie3
+ODP:B
+
+Zadanie4
+ODP:D
+
+Zadanie5
+ODP:A
