@@ -1,0 +1,22 @@
+Zadanie1
+MySQL- mysql.com- MySQL 8.0
+
+PostgreSQL- postgresql.org- PostgreSQL 14
+
+SQLite- sqlite.org- SQLite 3.37
+
+Microsoft SQL Server- microsoft.com- SQL Server 2022
+
+Oracle- oracle.com- Oracle Database 19c 
+
+Żadana z nich nie posiada licencji kmercyjnej
+
+Zadanie2
+Wady:
+- wysokie koszta wdrożenia i utrzymania serwera baz danych,
+- zarządzanie serwerem wymaga specjalistycznej wiedzy,
+- neiktóre bazy danych mogą być mniej elastyczne
+Zalety:
+- efektywne zarządzanie danymi
+- bezpieczeństwo danych
+- współbieżność i transakcje
